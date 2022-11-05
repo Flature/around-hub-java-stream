@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71f2384-8bcc-46c0-803b-f3bf73175108" name="Changes" comment="" />
+    <list default="true" id="c71f2384-8bcc-46c0-803b-f3bf73175108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/01. Streams.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/ArrayStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/CharStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/CollectionStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/ConcatStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/EmptyStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/FileStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/GenericStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/ParallelStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/StreamBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/StreamGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/generate/StreamIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/processing/Filtering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/processing/Iterating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/processing/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/processing/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/resulting/Calculating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/resulting/Collecting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/resulting/IteratingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/resulting/Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/resulting/Reduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/vo/IntegerVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/aroundhub/stream/sample/vo/StringVo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +53,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H53KkZfebltLCKjoxrnmuBW1PJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +74,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studio.aroundhub.stream.Application" />
+      <module name="stream.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studio.aroundhub.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +108,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667561058491</updated>
+      <workItem from="1667561060241" duration="14497000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
